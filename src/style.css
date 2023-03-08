@@ -2,3 +2,8 @@
   margin: 0;
 }
 
+.main-head {
+  background-color: rgb(97, 80, 80);
+  padding: 5rem;
+  color: white;
+}
