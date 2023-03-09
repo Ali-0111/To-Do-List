@@ -6,7 +6,6 @@ class List {
     this.enterBtn = document.querySelector('.enter');
     this.items = document.querySelector('.items');
     this.clearBtn = document.querySelector('.clear-btn');
-    this.index = 0;
   }
 
   addTodo() {
@@ -15,7 +14,7 @@ class List {
     this.db.push({
       description: this.input.value,
       completed: false,
-      index: this.index + 1,
+      index: this.db.length + 1,
     });
 
     this.input.value = '';
@@ -24,16 +23,35 @@ class List {
     this.save();
   }
 
+  deleteCompleted() {
+    this.db = this.db.filter((task) => !task.completed);
+    this.save();
+  }
+
+  makeIndex() {
+    this.db.forEach((element, i) => {
+      element.index = i + 1;
+    });
+  }
+
   save() {
+    this.makeIndex();
     localStorage.setItem('data', JSON.stringify(this.db));
   }
 
   show() {
     this.items.innerHTML = this.db.map((element) => (`
       <li class = "todo">
-        <button class="check"></button>
-        <p class="item-text">${element.description}</p>
-        <div class="moreBtn"></div>
+        <input type="checkbox" class="check"></input>
+        <span class="check-btn"></span>
+        <input readonly
+      class="item-text ${element.completed ? 'scratch' : ''}"
+      value="${element.description}">
+        <button
+        id="delete-Btn${element.index} delet-Btn"
+        class="moreBtn"
+        type"button">
+      </button>
       </li>`
     )).join('');
   }
