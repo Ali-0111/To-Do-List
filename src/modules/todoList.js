@@ -42,7 +42,7 @@ class List {
   show() {
     this.items.innerHTML = this.db.map((element) => (`
       <li class = "todo">
-        <input type="checkbox" class="check"></input>
+        <input type="checkbox" class="check" ></input>
         <span class="check-btn"></span>
         <input readonly
       class="item-text ${element.completed ? 'scratch' : ''}"
