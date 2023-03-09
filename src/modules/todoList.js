@@ -29,19 +29,16 @@ class List {
   }
 
   show() {
-    
-    this.db.map(element=>{
-
-    const li = document.createElement('li');
-    li.className = 'todo';
-    li.innerHTML = `
+    this.db.map((element) => {
+      const li = document.createElement('li');
+      li.className = 'todo';
+      li.innerHTML = `
         <button class="check"></button>
         <p class="item-text">${element.description}</p>
         <div class="moreBtn"></div>
         `;
-    this.items.appendChild(li);
-    });
-    
+      this.items.appendChild(li);
+    }).join('');
   }
 }
 
