@@ -1,6 +1,8 @@
 import './style.css';
+import list from './modules/todoList.js';
 
-const name = require('./modules/name.js');
-
-const mainhead = document.querySelector('.main-head');
-mainhead.innerText = `Hi ${name}`;
+list.enterBtn.onclick = (e) => {
+  e.preventDefault();
+  list.addTodo();
+  list.show();
+};
