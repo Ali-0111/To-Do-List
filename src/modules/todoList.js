@@ -1,6 +1,6 @@
 class List {
   constructor() {
-    this.db = [];
+    this.db = JSON.parse(localStorage.getItem('data')) || [];
     this.resetBtn = document.querySelector('.restart');
     this.input = document.querySelector('.add-input');
     this.enterBtn = document.querySelector('.enter');
@@ -18,6 +18,8 @@ class List {
       index: this.index + 1,
     });
 
+    this.input.value = '';
+
     // storage updated
     this.save();
   }
@@ -27,15 +29,19 @@ class List {
   }
 
   show() {
+    
+    this.db.map(element=>{
+
     const li = document.createElement('li');
     li.className = 'todo';
     li.innerHTML = `
         <button class="check"></button>
-        <p class="item-text">${this.input.value}</p>
+        <p class="item-text">${element.description}</p>
         <div class="moreBtn"></div>
         `;
     this.items.appendChild(li);
-    this.input.value = '';
+    });
+    
   }
 }
 
