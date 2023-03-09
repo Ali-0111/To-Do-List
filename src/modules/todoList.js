@@ -1,27 +1,26 @@
 class List {
   constructor() {
-    this.db = JSON.parse(localStorage.getItem('data')) || [];
+    this.db =  [{
+
+        description: "Reading Book",
+        completed: false,
+        index: 1,
+
+        description: "Buying Book",
+        completed: false,
+        index: 2,
+
+        description: "Coding with Partner",
+        completed: false,
+        index: 3,
+      }];
+      
     this.resetBtn = document.querySelector('.restart');
     this.input = document.querySelector('.add-input');
     this.enterBtn = document.querySelector('.enter');
     this.items = document.querySelector('.items');
     this.clearBtn = document.querySelector('.clear-btn');
     this.index = 0;
-  }
-
-  addTodo() {
-    // new object will be added to array
-
-    this.db.push({
-      description: this.input.value,
-      completed: false,
-      index: this.index + 1,
-    });
-
-    this.input.value = '';
-
-    // storage updated
-    this.save();
   }
 
   save() {
