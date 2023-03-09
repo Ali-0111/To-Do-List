@@ -29,16 +29,13 @@ class List {
   }
 
   show() {
-    this.db.map((element) => {
-      const li = document.createElement('li');
-      li.className = 'todo';
-      li.innerHTML = `
+    this.items.innerHTML = this.db.map((element) => (`
+      <li class = "todo">
         <button class="check"></button>
         <p class="item-text">${element.description}</p>
         <div class="moreBtn"></div>
-        `;
-      this.items.appendChild(li);
-    }).join('');
+      </li>`
+    )).join('');
   }
 }
 
