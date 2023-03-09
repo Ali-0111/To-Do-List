@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 62.5%;
+
+  --bg: #f1f2f5;
+}
+
+button {
+  border: none;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input:focus {
+  outline: none;
+}
+
+li {
+  margin: 1rem 0;
+  list-style: none;
+  padding-top: 0.5rem;
+}
+
+/****************** section:page1 ***********/
+
+.page1 {
+  width: 90%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+/************* container for the todo list ********/
+.container {
+  border: 1px solid var(--bg);
+  box-shadow: 5px 1px 8px var(--bg);
+  width: 40%;
+}
+
+.list {
+  padding: 1rem;
+  padding-top: 0;
+}
+
+/*********** inside the list *************/
+.main-head {
+  font-size: 1rem;
+}
+
+/*********** form section */
+
+.add-input {
+  border: none;
+  font-size: 1rem;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+/************* items section  */
+.restart,
+.enter,
+.moreBtn {
+  width: 1.8rem;
+  height: 1.8rem;
+  cursor: pointer;
+}
+
+.restart {
+  background: url('./icons/re-start.png') no-repeat;
+  background-size: 1.8rem;
+}
+
+.enter {
+  background: url('./icons/enter.svg') no-repeat;
+  background-size: 1.8rem;
+}
+
+.todo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 1rem;
+}
+
+.check {
+  border: 2px solid #dbdee7;
+  width: 1rem;
+  height: 1rem;
+  background: transparent;
+}
+
+.moreBtn {
+  background: url('./icons/three-dots.png') no-repeat;
+  background-size: 1.8rem;
+  position: absolute;
+  right: 0;
+}
+
+.item-text {
+  text-align: start;
+  padding: 0.5rem;
+}
+
+.clear-btn {
+  width: 100%;
+  border: none;
+  background-color: var(--bg);
+  padding: 1rem;
+  cursor: pointer;
+}
