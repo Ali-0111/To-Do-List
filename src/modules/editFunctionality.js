@@ -1,4 +1,5 @@
 import list from './todoList.js';
+import marked from './remove.js';
 
 class EditOption {
   constructor() {
@@ -27,6 +28,7 @@ class EditOption {
       list.show();
       list.save();
       this.setControlls();
+      marked.setControlls();
     };
 
     const input = this.Description[i];
