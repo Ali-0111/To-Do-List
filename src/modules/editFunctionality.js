@@ -23,7 +23,7 @@ class EditOption {
     this.delteTaskBtn = document.getElementById(`delete-Btn${i + 1}`);
     this.delteTaskBtn.classList.add('delete-Task-Btn');
     this.delteTaskBtn.onclick = () => {
-      li.db = list.db.filter((t, index) => index !== i);
+      list.db = list.db.filter((t, index) => index !== i);
       list.show();
       list.save();
       this.setControlls();
@@ -62,6 +62,6 @@ class EditOption {
     this.setControlls();
   }
 }
-const Edit = new EditOption;
+const Edit = new EditOption();
 
 export default Edit;

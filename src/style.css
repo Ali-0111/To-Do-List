@@ -189,7 +189,13 @@ li {
 }
 
 .delete-Task-Btn {
-  background: url('./icons/trash-icon.png') no-repeat;
+  background: url('./icons/trash.svg') no-repeat;
   background-size: 1.8rem;
   cursor: pointer;
+}
+
+.mark {
+  background: url('./icons/done.svg') no-repeat;
+  background-size: 1.8rem;
+  border: none;
 }
