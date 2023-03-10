@@ -20,6 +20,7 @@ class RemoveCompleted {
       list.db[i].completed = false;
     }
     list.show();
+    list.save();
     this.setControlls();
   }
 }
