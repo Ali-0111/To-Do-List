@@ -1,5 +1,5 @@
 import list from './todoList.js';
-
+import marked from './remove.js'
 class EditOption {
   constructor() {
     this.setControlls = () => {
@@ -60,6 +60,10 @@ class EditOption {
     list.show();
     list.save();
     this.setControlls();
+    // if i don't invoke this here, after i edit the description
+    // i can not mark the list 
+    // right now i have this issue here
+    marked.setControlls();
   }
 }
 const Edit = new EditOption();
