@@ -48,7 +48,7 @@ class List {
       class="item-text ${element.completed ? 'scratch' : ''}"
       value="${element.description}">
         <button
-        id="delete-Btn${element.index} delet-Btn"
+        id="delete-Btn${element.index}"
         class="moreBtn"
         type"button">
       </button>

@@ -178,3 +178,9 @@ li {
 .scratch {
   text-decoration: line-through;
 }
+
+.delete-Task-Btn {
+  background: url('./icons/trash-icon.png') no-repeat;
+  background-size: 1.8rem;
+  cursor: pointer;
+}
