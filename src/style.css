@@ -8,6 +8,8 @@ body {
   font-size: 62.5%;
 
   --bg: #f1f2f5;
+
+  background-color: var(--bg);
 }
 
 button {
@@ -50,6 +52,8 @@ li {
   border: 1px solid var(--bg);
   box-shadow: 5px 1px 8px var(--bg);
   width: 60%;
+  background-color: white;
+  border-radius: 1rem;
 }
 
 .list {
@@ -63,6 +67,11 @@ li {
 }
 
 /*********** form section */
+
+.addForm {
+  border-bottom: 1px solid gray;
+  padding-bottom: 1rem;
+}
 
 .add-input {
   border: none;
@@ -177,4 +186,10 @@ li {
 
 .scratch {
   text-decoration: line-through;
+}
+
+.mark {
+  background: url('./icons/done.svg') no-repeat;
+  background-size: 1.8rem;
+  border: none;
 }
