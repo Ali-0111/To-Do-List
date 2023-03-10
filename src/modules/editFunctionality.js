@@ -1,4 +1,5 @@
 import list from './todoList.js';
+
 class EditOption {
   constructor() {
     this.setControlls = () => {
