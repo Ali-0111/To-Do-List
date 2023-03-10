@@ -1,4 +1,5 @@
 import list from './todoList.js';
+import edit from './editFunctionality.js';
 
 class RemoveCompleted {
   constructor() {
@@ -21,6 +22,7 @@ class RemoveCompleted {
     }
     list.show();
     list.save();
+    edit.setControlls();
     this.setControlls();
   }
 }
