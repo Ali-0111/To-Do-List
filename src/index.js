@@ -1,25 +1,26 @@
 import './style.css';
 import list from './modules/todoList.js';
-import edit from './modules/editFunctionality.js';
-import marked from './modules/remove.js';
+import saveLocal from './modules/localStorageFunctions.js';
+import deleteAllCompleted from './modules/removeAll.js';
 
 window.onload = () => {
-  list.show();
-  edit.setControlls();
-  marked.setControlls();
+  list.createNewItem();
+  list.removeOnlyOne();
 };
 
 list.enterBtn.onclick = (e) => {
   e.preventDefault();
   list.addTodo();
-  list.show();
-  edit.setControlls();
-  marked.setControlls();
+  list.createNewItem();
+  list.removeOnlyOne();
 };
 
 list.clearBtn.onclick = () => {
-  list.deleteCompleted();
-  list.show();
-  edit.setControlls();
-  marked.setControlls();
+  deleteAllCompleted(list.db);
+};
+
+list.resetBtn.onclick = () => {
+  list.db = [];
+  saveLocal(list.db);
+  list.createNewItem();
 };
