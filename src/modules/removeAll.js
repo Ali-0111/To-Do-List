@@ -1,4 +1,4 @@
-/*eslint-disbale no-restricted-globals */
+/* eslint-disable no-restricted-globals */
 import saveLocal from './localStorageFunctions.js';
 
 function deleteCompleted(array) {
@@ -8,4 +8,4 @@ function deleteCompleted(array) {
 }
 
 export default deleteCompleted;
-/*eslint-disbale no-restricted-globals */
+/* eslint-disable no-restricted-globals */
