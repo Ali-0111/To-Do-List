@@ -1,3 +1,9 @@
+import create from './createNewitems.js';
+import saveLocal from './localStorageFunctions.js';
+import status from './make_true.js';
+import edit from './inputedition.js';
+import removeitem from './removeitem.js';
+
 class List {
   constructor() {
     this.db = JSON.parse(localStorage.getItem('data')) || [];
@@ -10,50 +16,24 @@ class List {
 
   addTodo() {
     // new object will be added to array
-
     this.db.push({
       description: this.input.value,
       completed: false,
       index: this.db.length + 1,
     });
 
+    saveLocal(this.db);
     this.input.value = '';
-
-    // storage updated
-    this.save();
   }
 
-  deleteCompleted() {
-    this.db = this.db.filter((task) => !task.completed);
-    this.save();
+  createNewItem =() => {
+    create.createItems(this.db);
+    status(this.db);
+    edit(this.db);
   }
 
-  makeIndex() {
-    this.db.forEach((element, i) => {
-      element.index = i + 1;
-    });
-  }
-
-  save() {
-    this.makeIndex();
-    localStorage.setItem('data', JSON.stringify(this.db));
-  }
-
-  show() {
-    this.items.innerHTML = this.db.map((element) => (`
-      <li class = "todo">
-        <input type="checkbox" class="check" ></input>
-        <span class="check-btn  ${element.completed ? 'mark' : ''}"></span>
-        <input readonly
-      class="item-text ${element.completed ? 'scratch' : ''}"
-      value="${element.description}">
-        <button
-        id="delete-Btn${element.index}"
-        class="moreBtn"
-        type"button">
-      </button>
-      </li>`
-    )).join('');
+  removeOnlyOne = () => {
+    removeitem(this.db);
   }
 }
 

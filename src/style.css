@@ -44,7 +44,7 @@ li {
 .page1 {
   width: 90%;
   margin: 0 auto;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 /************* container for the todo list ********/
@@ -117,12 +117,12 @@ li {
 
 } */
 
-.check {
+/* .check {
   display: none;
-}
+} */
 
 .check-btn {
-  display: block;
+  display: none;
   margin-inline: 1rem;
   width: 1.8rem;
   height: 1.8rem;
@@ -174,7 +174,6 @@ li {
   text-align: start;
   padding: 0.5rem;
   border: none;
-  width: 100%;
 }
 
 .clear-btn {
@@ -189,7 +188,7 @@ li {
   text-decoration: line-through;
 }
 
-.delete-Task-Btn {
+.moreBtn:hover {
   background: url('./icons/trash.svg') no-repeat;
   background-size: 1.8rem;
   cursor: pointer;
