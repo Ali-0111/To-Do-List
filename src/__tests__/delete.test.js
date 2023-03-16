@@ -1,30 +1,9 @@
 /* @jest-environment jsdom */
 import deleteOnlyOne from '../__Mocks__/deleteMock.js';
 import localStorageMock from '../__Mocks__/localStorageMock.js';
+import tasks from '../modules/tasks.js';
 
 describe('removeOnlyOne Validation', () => {
-  const tasks = [
-    {
-      description: 'work1',
-      completed: false,
-      index: 1,
-    },
-    {
-      description: 'work2',
-      completed: false,
-      index: 2,
-    },
-    {
-      description: 'work3',
-      completed: true,
-      index: 3,
-    },
-    {
-      description: 'work4',
-      completed: true,
-      index: 4,
-    },
-  ];
   //  test 1
   test('task[0] removed: 3 item- should remain', () => {
     expect(deleteOnlyOne(tasks, 0)).toHaveLength(3);
