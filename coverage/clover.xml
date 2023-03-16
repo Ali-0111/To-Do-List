@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1678982809655" clover="3.2.0">
-  <project timestamp="1678982809655" name="All files">
-    <metrics statements="25" coveredstatements="25" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7" elements="32" coveredelements="32" complexity="0" loc="25" ncloc="25" packages="2" files="6" classes="6"/>
+<coverage generated="1678986322161" clover="3.2.0">
+  <project timestamp="1678986322161" name="All files">
+    <metrics statements="31" coveredstatements="31" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10" elements="41" coveredelements="41" complexity="0" loc="31" ncloc="31" packages="2" files="7" classes="7"/>
     <package name="__Mocks__">
-      <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="7"/>
+      <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
       <file name="add-Mock.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\__Mocks__\add-Mock.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
@@ -12,6 +12,15 @@
         <line num="11" count="2" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
+      </file>
+      <file name="clearCompleted-Mock.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\__Mocks__\clearCompleted-Mock.js">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
       </file>
       <file name="completed-Mock.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\__Mocks__\completed-Mock.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
@@ -38,17 +47,17 @@
       </file>
       <file name="localStorageMock.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\__Mocks__\localStorageMock.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="4" count="5" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
       </file>
     </package>
     <package name="modules">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="tasks.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\modules\tasks.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
       </file>
     </package>
   </project>

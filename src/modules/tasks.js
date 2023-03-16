@@ -1,7 +1,7 @@
 const tasks = [
   {
     description: 'work1',
-    completed: false,
+    completed: true,
     index: 1,
   },
   {
