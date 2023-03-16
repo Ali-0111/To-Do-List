@@ -32,6 +32,7 @@
 - Write a descriptive and easy to understand README in business English for every project submitted.
 - Demonstrate an ability to submit a project for code review.
 - Using HTML,CSS,BOOTSTRAP and JAVASCRIPT.
+- Create a enviroment for testing, use `Webpack` with `Jest`
 
 **[To-Do-List]** is a project that has been built in this repo.
 
@@ -48,6 +49,10 @@
 > Git.
 
 > GitHub.
+
+> Webpack
+
+> Jest.
 
 <details>
   <summary>HTML</summary>
@@ -84,6 +89,20 @@
   </ul>
 </details>
 
+<details>
+<summary> Webpack </summary>
+  <ul>
+    <li><a href="https://webpack.js.org/"> Webpack </a></li>
+  </ul>
+</details>
+
+<details>
+<summary> Jest </summary>
+  <ul>
+    <li><a href="https://jestjs.io/"> Jest </a></li>
+  </ul>
+</details>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -94,6 +113,8 @@
 - **[HTML5]**
 - **[CSS]**
 - **[GitHub Pages]**
+- **[Webpack]**
+- **[Jest]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,13 +166,25 @@ To run the project, click [TodoList](https://github.com/Ali-0111/To-Do-List)
 - Twitter: [@safari](https://twitter.com/qurban_safari)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/ali-safari-695214202/)
 
+👤 **ClintonYounge**
+
+- GitHub: [@ClintonYounge](https://github.com/ClintonYounge)
+- Twitter: [@ClintonYounge](https://twitter.com/YoungeCjay)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/clinton-younge-83386a25a/)
+
+👤 **mdg0410**
+
+- GitHub: [@mdg0410](https://github.com/mdg0410)
+- Twitter: [@mdg0410](https://twitter.com/steven_levoyer)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/)
+
+
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
 > This are some of the features coming soon.
 
-- [ ] **[Desktop Version]**
 - [ ] **[Mobile Version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
