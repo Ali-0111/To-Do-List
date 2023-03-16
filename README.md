@@ -107,7 +107,7 @@
 
 ### Key Features <a name="key-features"></a>
 
-> I have made use of a couple of features mainly:
+> We have made use of a couple of features mainly:
 
 - **[Linters]**
 - **[HTML5]**

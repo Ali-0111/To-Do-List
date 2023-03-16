@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1678986322161" clover="3.2.0">
-  <project timestamp="1678986322161" name="All files">
-    <metrics statements="31" coveredstatements="31" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10" elements="41" coveredelements="41" complexity="0" loc="31" ncloc="31" packages="2" files="7" classes="7"/>
+<coverage generated="1678996077727" clover="3.2.0">
+  <project timestamp="1678996077728" name="All files">
+    <metrics statements="35" coveredstatements="35" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="11" elements="46" coveredelements="46" complexity="0" loc="35" ncloc="35" packages="2" files="8" classes="8"/>
     <package name="__Mocks__">
-      <metrics statements="30" coveredstatements="30" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="10"/>
-      <file name="add-Mock.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\__Mocks__\add-Mock.js">
+      <metrics statements="34" coveredstatements="34" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="11"/>
+      <file name="add-Mock.js" path="E:\Microverse_codes\To-Do-List\src\__Mocks__\add-Mock.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
@@ -13,7 +13,7 @@
         <line num="12" count="2" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
       </file>
-      <file name="clearCompleted-Mock.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\__Mocks__\clearCompleted-Mock.js">
+      <file name="clearCompleted-Mock.js" path="E:\Microverse_codes\To-Do-List\src\__Mocks__\clearCompleted-Mock.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="4" type="stmt"/>
@@ -22,14 +22,14 @@
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="completed-Mock.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\__Mocks__\completed-Mock.js">
+      <file name="completed-Mock.js" path="E:\Microverse_codes\To-Do-List\src\__Mocks__\completed-Mock.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
       </file>
-      <file name="deleteMock.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\__Mocks__\deleteMock.js">
+      <file name="deleteMock.js" path="E:\Microverse_codes\To-Do-List\src\__Mocks__\deleteMock.js">
         <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
@@ -38,24 +38,31 @@
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
-      <file name="edite-Mock.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\__Mocks__\edite-Mock.js">
+      <file name="edite-Mock.js" path="E:\Microverse_codes\To-Do-List\src\__Mocks__\edite-Mock.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
         <line num="4" count="1" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
-      <file name="localStorageMock.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\__Mocks__\localStorageMock.js">
+      <file name="localStorageMock.js" path="E:\Microverse_codes\To-Do-List\src\__Mocks__\localStorageMock.js">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="1" count="5" type="stmt"/>
-        <line num="2" count="5" type="stmt"/>
-        <line num="4" count="6" type="stmt"/>
-        <line num="6" count="5" type="stmt"/>
+        <line num="1" count="6" type="stmt"/>
+        <line num="2" count="6" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+      </file>
+      <file name="updateStatus.js" path="E:\Microverse_codes\To-Do-List\src\__Mocks__\updateStatus.js">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
       </file>
     </package>
     <package name="modules">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="tasks.js" path="C:\Users\Steven\Documents\Git_Repo\To-Do-List-2\src\modules\tasks.js">
+      <file name="tasks.js" path="E:\Microverse_codes\To-Do-List\src\modules\tasks.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="4" type="stmt"/>
       </file>
