@@ -1,4 +1,15 @@
 <a name="readme-top"></a>
+
+<div align="center">
+
+  [![](https://img.shields.io/badge/Microverse-blueviolet)](https://www.microverse.org/?grsf=04r25h)
+  <br/>
+
+  <h3><b>To-Do App</b></h3>
+</div>
+<img src="./todo.PNG" alt="Presentation" />
+<!-- TABLE OF CONTENTS -->
+
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -11,14 +22,17 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!------------------------ PROJECT DESCRIPTION----------->
+<!-- PROJECT DESCRIPTION -->
 
 # 📖 [To-Do-List] <a name="about-project"></a>
 > Objectives of this project are to learn how to:
@@ -38,8 +52,6 @@
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
 > HTML.
 
 > CSS.
@@ -53,56 +65,6 @@
 > Webpack
 
 > Jest.
-
-<details>
-  <summary>HTML</summary>
-  <ul>
-    <li><a href="https://en.wikipedia.org/wiki/HTML"> HTML5 </a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>CSS</summary>
-  <ul>
-    <li><a href="https://en.wikipedia.org/wiki/CSS"> CSS </a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Git</summary>
-  <ul>
-    <li><a href="https://en.wikipedia.org/wiki/Git"> Git </a></li>
-  </ul>
-</details>
-
-<details>
-<summary> GitHub </summary>
-  <ul>
-    <li><a href="https://en.wikipedia.org/wiki/GitHub"> GitHub </a></li>
-  </ul>
-</details>
-
-<details>
-<summary> JavaScript </summary>
-  <ul>
-    <li><a href="https://www.javascript.com/"> JavaScript </a></li>
-  </ul>
-</details>
-
-<details>
-<summary> Webpack </summary>
-  <ul>
-    <li><a href="https://webpack.js.org/"> Webpack </a></li>
-  </ul>
-</details>
-
-<details>
-<summary> Jest </summary>
-  <ul>
-    <li><a href="https://jestjs.io/"> Jest </a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -132,27 +94,69 @@
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> How to make use of this project.
+## Setup
+- Clone this project
+```
+- $ git clone https://github.com/Ali-0111/To-Do-List.git
+- $ cd To-Do-List
+```
+- Install npm packages
+```
+$ npm install
+```
+- Install dev dependencies
 
-To get a local copy up and running, follow these steps.
+```
+$ npm install --save-dev @babel/plugin-transform-modules-commonjs
+```
+
+```
+$ npm install babel-eslint --save-dev
+```
+
+```
+$ npm install jest jest-environment-jsdom webpack --save-dev
+```
+
+```
+$ npm install webpack-cli webpack-dev-server --save-dev
+```
+
+```
+$ npm install css-loader style-loader --save-dev
+```
+
+### Usage
+
+- Open on live server
+
+```
+- $ npm run start
+```
 
 ### Prerequisites
 
-> In order to run this project you need:
+In order to run this project you need:
 
-Internet Browser the recommend one is <a href="https://www.google.com/chrome/">Google Chrome.</a>
+- Browser
+- Visual Studio
+- Install dependencies
 
-### Install
 
-Install <a href="https://www.google.com/chrome/">Google Chrome.</a>
+### Run tests
 
-### Setup
+To run tests, run the following command:
 
-After Installing Google Chrome set it as default browser.
+```
+- $ npm run test
+```
 
-### Usage
-<!----------------Please add the new link ------------------->
-To run the project, click [TodoList](https://github.com/Ali-0111/To-Do-List)
+### Deployment
+
+You can deploy this project using:
+```
+- GitHubPages(Free service for deployment)
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -185,7 +189,7 @@ To run the project, click [TodoList](https://github.com/Ali-0111/To-Do-List)
 
 > This are some of the features coming soon.
 
-- [ ] **[Mobile Version]**
+- [ ] **[Draggable Version]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,7 +199,7 @@ To run the project, click [TodoList](https://github.com/Ali-0111/To-Do-List)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Ali-0111/To-Do-List/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
