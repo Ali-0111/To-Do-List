@@ -35,7 +35,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [To-Do-List] <a name="about-project"></a>
->This SPA helps user to add and keep their todo works.
+>This SPA helps user to add and keep their todo works, edit the list or remove the work when it is done.
 > Objectives of this project are to learn how to:
 
 - Create mobile and desktop version.
