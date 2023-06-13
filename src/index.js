@@ -1,26 +1,24 @@
 import './style.css';
-import list from './modules/todoList.js';
+import todoList from './modules/todoList.js';
 import saveLocal from './modules/localStorageFunctions.js';
-import deleteAllCompleted from './modules/removeAll.js';
 
 window.onload = () => {
-  list.createNewItem();
-  list.removeOnlyOne();
+  todoList.renderItems();
 };
 
-list.enterBtn.onclick = (e) => {
+todoList.enterBtn.onclick = (e) => {
   e.preventDefault();
-  list.addTodo();
-  list.createNewItem();
-  list.removeOnlyOne();
+  todoList.handleNewTodo();
+  todoList.renderItems();
 };
 
-list.clearBtn.onclick = () => {
-  deleteAllCompleted(list.db);
+todoList.clearBtn.onclick = () => {
+  todoList.deleteCompleted();
+  todoList.handleDelete();
 };
 
-list.resetBtn.onclick = () => {
-  list.db = [];
-  saveLocal(list.db);
-  list.createNewItem();
+todoList.resetBtn.onclick = () => {
+  todoList.db = [];
+  saveLocal(todoList.db);
+  todoList.renderItems();
 };
