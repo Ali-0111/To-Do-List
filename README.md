@@ -34,7 +34,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [To-Do-List] <a name="about-project"></a>
+# 📖 To-Do-List <a name="about-project"></a>
 >This SPA helps user to add and keep their todo works, edit the list or remove the work when it is done.
 > Objectives of this project are to learn how to:
 
@@ -46,7 +46,7 @@
 - Write short, detailed, easy to understand descriptions of pull requests.
 - Write a descriptive and easy to understand README in business English for every project submitted.
 - Demonstrate an ability to submit a project for code review.
-- Using HTML,CSS,BOOTSTRAP and JAVASCRIPT.
+- Using HTML,CSS and JAVASCRIPT.
 - Create a enviroment for testing, use `Webpack` with `Jest`
 
 **[To-Do-List]** is a project that has been built in this repo.
