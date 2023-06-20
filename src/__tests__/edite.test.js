@@ -1,7 +1,7 @@
 /* @jest-environment jsdom */
 import editeTask from '../__Mocks__/edite-Mock.js';
 import localStorageMock from '../__Mocks__/localStorageMock.js';
-import tasks from '../modules/tasks.js';
+import tasks from './tasks.js';
 
 describe('editeTask validator', () => {
   //  test 1

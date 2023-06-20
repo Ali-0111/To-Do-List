@@ -1,7 +1,7 @@
 /* @jest-environment jsdom */
 import deleteOnlyOne from '../__Mocks__/deleteMock.js';
 import localStorageMock from '../__Mocks__/localStorageMock.js';
-import tasks from '../modules/tasks.js';
+import tasks from './tasks.js';
 
 describe('removeOnlyOne Validation', () => {
   //  test 1
