@@ -7,7 +7,9 @@
 
   <h3><b>To-Do App</b></h3>
 </div>
-<img src="./ToDoList_ScreenShot.png" alt="Presentation" />
+<div align="center">
+  <img width="70%" align="center" src="./ToDoList_ScreenShot.png" alt="Presentation" />
+</div>
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
