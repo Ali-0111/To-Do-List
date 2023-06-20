@@ -2,7 +2,7 @@
 
 import localStorageMock from '../__Mocks__/localStorageMock.js';
 import completedTask from '../__Mocks__/completed-Mock.js';
-import tasks from '../modules/tasks.js';
+import tasks from './tasks.js';
 
 describe('completeTask validator', () => {
   //  test 1

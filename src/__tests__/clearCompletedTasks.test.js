@@ -1,7 +1,7 @@
 /* @jest-environment jsdom */
 
 import localStorageMock from '../__Mocks__/localStorageMock.js';
-import tasks from '../modules/tasks.js';
+import tasks from './tasks.js';
 import clearCompleted from '../__Mocks__/clearCompleted-Mock.js';
 
 describe('Clear All Completed Tasks Validator', () => {

@@ -7,17 +7,20 @@
     "test": "jest --coverage",
     "build": "webpack",
     "start": "webpack serve --open"
-  },
+  }
+  ,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ali-0111/To-Do-List.git"
-  },
+  }
+  ,
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Ali-0111/To-Do-List/issues"
-  },
+
+  }
+  ,
   "homepage": "https://github.com/Ali-0111/To-Do-List#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.21.2",
