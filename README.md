@@ -48,8 +48,8 @@
 - Demonstrate an ability to submit a project for code review.
 - Using HTML,CSS and JAVASCRIPT.
 - Create a enviroment for testing, use `Webpack` with `Jest`
+- `webpack`, `css-loader`, `style-loader`, `stylelint-scss` included as dependencies
 
-**[To-Do-List]** is a project that has been built in this repo.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -72,12 +72,11 @@
 
 > We have made use of a couple of features mainly:
 
-- **[Linters]**
-- **[HTML5]**
-- **[CSS]**
-- **[GitHub Pages]**
-- **[Webpack]**
-- **[Jest]**
+- **`webpack`** is used to bundle JavaScript Modules
+- **`css-loader`, `style-loader`, `stylelint-scss`** are added to include `css` styles for individual modules
+- **`jest`** library added for tests
+- **GitHub Pages** used for deployment
+- **`LocalStorage`** used to keep the record for `Todo-list` app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,31 +104,10 @@
 ```
 $ npm install
 ```
-- Install dev dependencies
-
-```
-$ npm install --save-dev @babel/plugin-transform-modules-commonjs
-```
-
-```
-$ npm install babel-eslint --save-dev
-```
-
-```
-$ npm install jest jest-environment-jsdom webpack --save-dev
-```
-
-```
-$ npm install webpack-cli webpack-dev-server --save-dev
-```
-
-```
-$ npm install css-loader style-loader --save-dev
-```
-
 ### Usage
 
-- Open on live server
+- Open on live server `dist/index.html`
+- or use:
 
 ```
 - $ npm run start
@@ -154,7 +132,7 @@ To run tests, run the following command:
 
 ### Deployment
 
-You can deploy this project using:
+This page is deployed on:
 ```
 - GitHubPages(Free service for deployment)
 ```
@@ -208,16 +186,20 @@ Feel free to check the [issues page](https://github.com/Ali-0111/To-Do-List/issu
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> If you like this project join Microverse Org and learn how to build one from scratch.
+> If you like this project, please give a ⭐️
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
--Thank you to Microverse Inc.
-<!-- LICENSE -->
+- 🙏 [**Microverse**](https://www.microverse.org) for its arrangements and supports.
 
+
+**We especially thank from these Code reviwers for their honest help and constructive feedbacks during the project:**
+- 🙏 [**KayLemba**](https://github.com/KayLemba)
+- 🙏 [**AbayomiOlaoye**](https://github.com/AbayomiOlaoye)
+- 🙏 [**VICTOR-CHUKWU**](https://github.com/VICTOR-CHUKWU)
 ## 📝 License <a name="license"></a>
 This work is licensed by <a rel="license" href="./LICENSE">MIT </a>.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
