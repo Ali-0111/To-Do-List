@@ -13,6 +13,16 @@ body {
   background-color: var(--bg);
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 button {
   border: none;
 }
@@ -102,6 +112,10 @@ li {
 .restart {
   background: url('./icons/re-start.png') no-repeat;
   background-size: 1.8rem;
+}
+
+.restart:hover {
+  animation: spin 2s linear;
 }
 
 .enter {
